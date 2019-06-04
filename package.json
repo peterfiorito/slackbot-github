@@ -1,0 +1,28 @@
+{
+  "name": "slackbot-github",
+  "version": "1.0.0",
+  "description": "A slackbot for opening issues",
+  "main": "index.js",
+  "scripts": {
+    "server": "node ./server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterfiorito/slackbot-github.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peterfiorito/slackbot-github/issues"
+  },
+  "homepage": "https://github.com/peterfiorito/slackbot-github#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "http-server": "^0.11.1",
+    "morgan": "^1.9.1"
+  }
+}
